@@ -1,0 +1,14 @@
+.photo-selector {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70vw;
+}
+
+.photo-selector__thumbnail img {
+    width: calc(70vw / 4 - 10px);
+    border: none;
+}
+
+.photo-selector__thumbnail.selected img {
+    border: 5px solid black;
+}
